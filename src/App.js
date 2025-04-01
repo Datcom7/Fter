@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import ArtemGay from './ArtemGay';
+import Body from './Body.js';
+import Header from './header/Header.js'
 
 function App() {
   return (
     <div className="App">
-      <ArtemGay name = {'Rae'}/>
+      <Header name = {'Hae'}/>
+      <Body name = {'Rae'}/>
     </div>
   );
 }

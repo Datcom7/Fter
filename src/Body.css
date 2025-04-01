@@ -1,0 +1,85 @@
+.Main {
+    display: flex;
+    background-color: #f8f5ee;
+    border: 5px solid #404040;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+
+}
+
+.Text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    color: #d69378;
+    width: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Title2 {
+    font-size: larger;
+}
+
+.BorderedText {
+    color: #f8f5ee;
+    padding: 1%;
+    background-color: #73655c;
+    border: 2px solid #9c8f87;
+}
+
+
+
+.ImageWithButtons {
+    background-color: #73655c;
+    padding: 1%;
+    width: auto;
+    height: auto;
+    margin-top: 3%;
+    margin-bottom: auto;
+    margin-left: 8%;
+    border-radius: 5%;
+}
+
+/* .Buttons {
+    background-color: rgb(129, 189, 245);
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid red 
+  } */
+.Buttons {
+    margin-top: 2%;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.MuiButtonBase-root.ButtonLR {
+    color: #f8f5ee;
+    border: 1px solid rgba(136, 136, 136, 0.459);
+    margin: 0;
+}
+
+.Img {
+    display: block;
+    border: 2px solid #f8f5ee;
+    border-radius: 5%;
+}
+
+.C {
+    color: lightgreen;
+}
+
+.BorderedWord {
+    color: #f8f5ee;
+    background-color: #73655c;
+    border: 2px solid #9c8f87;
+}
+
+a:link {
+    color: rgb(255, 255, 255) !important
+}
+
+a:active {
+    color: orange !important
+}
